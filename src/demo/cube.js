@@ -1,8 +1,8 @@
 import * as THREE from 'three';
 
-import './index.css';
+import './cube.css';
 
-const start = () => {
+const cube = () => {
   // 场景
   const scene = new THREE.Scene();
   // 相机
@@ -20,7 +20,7 @@ const start = () => {
   // 把渲染器添加到 body 结点
   document.body.appendChild(renderer.domElement);
 
-  // 一个立方体
+  // 一个几何体
   const geometry = new THREE.BoxGeometry(1, 1, 1);
   // 绿色材质
   const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
@@ -46,4 +46,4 @@ const start = () => {
   animate();
 };
 
-export default start;
+export default cube;
