@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "three": "^0.105.2"
+    "three": "^0.137.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
